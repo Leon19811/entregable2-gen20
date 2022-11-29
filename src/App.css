@@ -1,0 +1,77 @@
+.App {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Coro_con_el_Mar_Caribe_de_Fondo.JPG/1200px-Coro_con_el_Mar_Caribe_de_Fondo.JPG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card {
+    width: 100%;
+    max-width: 400px;
+    background-color: #fff9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(32, 230, 252, 0.7);
+    display: grid;
+    grid-template-columns: repeat (2, 1fr);    
+}
+
+.card__title {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+
+.card__subtitule {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.card__second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card_temperature {
+    text-align: center;
+    font-size: 15rem;
+}
+
+.card__btn {
+    padding: 0.5em 1em;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: rgba(64, 131, 255, 0.7);
+    color: white;
+    box-shadow: 1px 1px 10px rgba(1, 42, 117, 0.7);
+    transition: transform 100ms ease;
+  }
+  .card__btn:hover {
+    transform: scale(1.04);
+  }
+  .card__btn:active {
+    transform: scale(1);
+    box-shadow: 1px 1px 5px rgba(1, 42, 117, 0.7);
+  }
+  
+
+.second__item{
+    list-style: none;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+
+
+
+
